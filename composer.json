@@ -1,0 +1,21 @@
+{
+  "name": "skybluesofa/pagespeed",
+  "description": "Discover Google PageSpeed Insights",
+  "license": "MIT",
+  "keywords": ["pagespeed"],
+  "authors": [
+    {
+      "name": "Dave Rogers",
+      "email": "connect@skyblueosfa.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skybluesofa\\Pagespeed\\": "src"
+    }
+  }
+}
